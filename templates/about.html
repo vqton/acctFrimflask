@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{% set about_us_text = '<h1>About Us</h1>
+
+<p>Welcome to Our Accounting Firm!</p>
+
+<p>We are a team of experienced, certified public accountants dedicated to providing high-quality financial services to small and medium-sized businesses. Our goal is to help our clients succeed by providing timely, accurate, and reliable financial information and advice.</p>
+
+<p>Our services include:</p>
+<ul>
+  <li>Bookkeeping and accounting</li>
+  <li>Tax preparation and planning</li>
+  <li>Payroll processing</li>
+  <li>Financial statement preparation</li>
+  <li>Business consulting</li>
+</ul>
+
+<p>We are committed to building long-term relationships with our clients and strive to be a trusted partner in their financial success. If you're interested in learning more about how we can help your business, don't hesitate to <a href="/contact">contact us</a>.</p>' %}
+{{ about_us_text|safe }}
+{% endblock %}
